@@ -24,15 +24,15 @@ class Palindrome
 }	
 
 
-/* One Liner
+/* One Liner */
 
 public static boolean oneLinerPalin(String str){
     return str.equals(new StringBuffer(str).reverse().toString());
 }
 
-*/
 
-/* No StringBuffer
+
+/* No StringBuffer */
 
 public static boolean isPalindrome(String str){
 
@@ -47,9 +47,9 @@ public static boolean isPalindrome(String str){
     return true;
 }
 
-*/
 
-/* Recursive
+
+/* Recursive */
 
 public static boolean recursivePalin(String str){
     return check(str, 0, str.length() - 1);
@@ -61,4 +61,4 @@ private static boolean check (String str,int start,int stop){
            check(str, start + 1, stop - 1);
 }
 
-*/
+
