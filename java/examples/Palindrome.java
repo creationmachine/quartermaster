@@ -27,7 +27,7 @@ class Palindrome
 /* One Liner */
 
 public static boolean oneLinerPalin(String str){
-    return str.equals(new StringBuffer(str).reverse().toString());
+    return str.equals(new StringBuilder(str).reverse().toString());
 }
 
 
